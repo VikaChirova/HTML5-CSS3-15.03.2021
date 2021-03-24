@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Arial;
 }
 .wrap {
@@ -34,7 +34,7 @@
   line-height: 35px;
 }
 .about {
-  padding-top: 45px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 .about-wrap {
@@ -48,10 +48,10 @@
   align-items: flex-start;
 }
 .text-about {
+  margin-bottom: 1em;
+  color: #445161;
   font-size: 30px;
   line-height: 36px;
-  color: #445161;
-  margin-bottom: 1em;
 }
 .foto {
   padding: 23px 23px;
@@ -135,6 +135,9 @@
 .text-heading {
   text-align: center;
   color: #445161;
+  font-family: Arial;
+  font-size: 30px;
+  line-height: 36px;
 }
 .footer {
   background: #445161;
@@ -142,42 +145,9 @@
 .buy {
   display: flex;
   justify-content: space-between;
-
   padding: 0px 145px 50px;
 }
 
-.standart-top {
-  width: 300px;
-  height: 71px;
-  left: 0px;
-  top: 51px;
-
-  background: #ffffff;
-  border: 2px solid #445162;
-  box-sizing: border-box;
-}
-
-.premium-top {
-  width: 300px;
-  height: 71px;
-  left: 0px;
-  top: 51px;
-
-  background: #ffffff;
-  border: 2px solid #445162;
-  box-sizing: border-box;
-}
-
-.lux-top {
-  width: 300px;
-  height: 71px;
-  left: 0px;
-  top: 51px;
-
-  background: #ffffff;
-  border: 2px solid #445162;
-  box-sizing: border-box;
-}
 .text {
   color: #ffffff;
 }
@@ -264,35 +234,32 @@
   margin-bottom: 2px;
 }
 .standart {
-  height: 390px;
+  height: 320px;
   width: 300px;
   background: #445161;
-  margin: 0.5rem;
-
+  margin: 0.9rem;
   flex-direction: column;
+  margin-top: 19%;
 }
 .premium {
-  height: 409px;
+  height: 415px;
   width: 300px;
   background: #445161;
-  margin: 0.5rem;
-
+  margin: 0.9rem;
+  margin-top: 9.5%;
   flex-direction: column;
 }
 .lux {
-  height: 499px;
+  height: 510px;
   width: 300px;
   background: #445161;
-  margin: 0.5rem;
-
+  margin: 0.9rem;
+  margin-top: 0%;
   flex-direction: column;
 }
 .row {
   box-sizing: border-box;
   display: flex;
-  flex-flow: row nowrap;
-  align-content: center;
-  justify-content: space-between;
 }
 .white {
   float: center;
@@ -320,4 +287,10 @@
   padding-top: 23px;
   padding-bottom: 16px;
   color: #445162;
+}
+.info {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 10px;
 }
